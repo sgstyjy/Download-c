@@ -54,7 +54,7 @@ public class Download {
 				System.out.println(Thread.currentThread().getId()+"  "+Thread.currentThread().getName());
 				
 		        //Code to download
-				//while(true){
+				while(true){
 					try {
 						 InputStream in = new BufferedInputStream(link.openStream());
 						 ByteArrayOutputStream out = new ByteArrayOutputStream();
@@ -84,7 +84,7 @@ public class Download {
 							e1.printStackTrace();
 						}
 					//System.out.println(Thread.currentThread().getName()+"\n");
-				//}
+				}
 			
 			}
 		}
